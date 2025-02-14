@@ -130,4 +130,4 @@ If you have questions or suggestions, feel free to open an issue or PR at https:
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Apache 2.0 License**. You may freely use, modify, and distribute the code under the terms of the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details. Commercial use of this code must be reviewed by the original authors for potential compensation or additional credit. Commercial users are encouraged to contact the authors for licensing details. Please contact the authors to discuss commercial licensing.
