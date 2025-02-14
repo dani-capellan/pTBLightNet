@@ -56,6 +56,8 @@ This script will do the following:
 
 3. Run inference on the example cases ensembling features from both the AP and LAT models. Results will be stored in `results_test_mwe/AP-LAT_ensemble`. Steps 1 and 2 are not required to run this third step. However, in order to generate Grad-CAMs, steps 1 and 2 have to be conducted separately.
 
+Note: MWE inference time < 1 min in NVIDIA 4090 24GB GPU.
+
 ### Use Custom Dataset
 
 You can use your own dataset by following the next steps:
