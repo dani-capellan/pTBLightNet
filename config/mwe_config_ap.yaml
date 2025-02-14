@@ -1,0 +1,54 @@
+random_state: 2023
+log_output: true
+out_dir: "./results_test_mwe/"  # Required
+data_in: 
+    csv: './data/dataset_mwe.csv'
+    pkl: './data/mwe_data.pkl'  # PKL with images redimensioned to 256x256
+    models_ckpts_dir: './weights'  # Required
+img_dim_ai: 256
+clinical_vars:
+    enabled: false
+clahe:
+    enabled: true
+experimentDescription:
+    experiment_name: "AP"  # Required - Please, write here the name of the folder which contains the different folds and model weights trained (typically, "exp_all_DDMMYYYY_HHMMSS").
+experimentEnv: 
+    models: ['pTBLightNetv5_BN_BN']
+    optimizers: ['Adam']
+    losses: ['FocalLoss']
+    ckpt_filename: "model_best.pth"  # "model_last.pth" to select the last model, not the best. Else, leave by default "model_best.pth"
+    test_model: true
+    num_classes: 2
+    test_batch_size: 32
+    optim_args:
+        Adam:
+            learning_rate: 0.0001
+            beta_1: 0.9
+            beta_2: 0.999
+            weight_decay: 0.0001
+        SGD:
+            learning_rate: 0.01
+            weight_decay: 0.0001
+        RMSprop:
+            learning_rate: 0.01
+            weight_decay: 0.0001
+        scheduler:
+            enabled: true
+            name: 'cosine'
+    apply_softmax: true
+    pred_thresh: 0.5
+    export_logits: true
+    shap: false
+    gradcam: true
+    classes: ('non-TB-compatible', 'TB-compatible')
+    view: 'AP'  # AP, LAT, or AP-LAT
+    cross_validation:
+        enabled: true
+        k: 5
+    norm:  # Image normalization - from pretrain ALL XRAY
+        AP:
+            mean: 0.5127701759338379
+            std: 0.2660398483276367
+        LAT:
+            mean: 0.48091140389442444
+            std: 0.30125778913497925
