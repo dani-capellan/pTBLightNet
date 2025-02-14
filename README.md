@@ -24,7 +24,7 @@ Tuberculosis (TB) remains a major global health burden, particularly in low-reso
 
 ## Installation
 
-We highly recommend first creating a virtual environment using Miniconda/Anaconda. This code was developed using CUDA 11.8 and Python 3.9, although higher versions may also be compatible with minimal modifications. Once this is done, please install the required libraries with pip:
+We highly recommend first creating a virtual environment using Miniconda/Anaconda. This code was developed using CUDA 11.8 and Python 3.9, although higher versions may also be compatible with minimal modifications. Once this is done, please install the required libraries with pip (installation time < 10 min in a normal setting):
 
 ```bash
 pip install -r requirements.txt
