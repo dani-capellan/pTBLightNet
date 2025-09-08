@@ -117,12 +117,12 @@ In order to test one or more trained models on our data, we will need to:
 
 Please cite us if you are using this code!
 
+- Capellán-Martín, D., Gómez-Valverde, J. J., Sánchez-Jacob, R., et al. (2025). 
+  "Multi-View Deep Learning Framework for the Detection of Chest X-Rays Compatible with Pediatric Pulmonary Tuberculosis." Nature Communications.
+
 - Capellán-Martín, D., Gómez-Valverde, J.J., Bermejo-Peláez, D. et al. 
   "A lightweight, rapid and efficient deep convolutional network for chest X-ray tuberculosis detection" 
   2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI 2023). https://doi.org/10.1109/ISBI53787.2023.10230500
-
-- Capellán-Martín, D., Gómez-Valverde, J. J., Sánchez-Jacob, R., et al. (2025). 
-  "Multi-View Deep Learning Framework for the Detection of Chest X-Rays Compatible with Pediatric Pulmonary Tuberculosis." Under Review.
 
 ## How to contribute
 
