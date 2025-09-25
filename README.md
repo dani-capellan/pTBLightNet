@@ -130,10 +130,19 @@ If you have questions or suggestions, feel free to open an issue or PR at https:
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). You are free to share (copy and redistribute) the material in any medium or format for non-commercial purposes only, without modifications, and with appropriate attribution. You may not use the material for commercial purposes, and you may not distribute modified versions of this work.
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
-For more details, see the full license text in the [LICENSE](LICENSE) file or visit the [https://creativecommons.org/licenses/by-nc-nd/4.0/](Creative Commons website).
+This project is licensed under a
+[Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International][cc-by-nc-nd] (CC BY-NC-ND) License. You are free to share (copy and redistribute) the material in any medium or format for non-commercial purposes only, without modifications, and with appropriate attribution. You may not use the material for commercial purposes, and you may not distribute modified versions of this work.
+
+For more details, see the full license text in the [LICENSE](LICENSE) file or visit the [Creative Commons website][cc-by-nc-nd].
 
 If you are interested in using this work commercially or wish to request permission for a derivative work, please contact the authors to discuss potential licensing arrangements.
 
 © 2025 Biomedical Image Technologies - Universidad Politécnica de Madrid
+
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
+
+[cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
+[cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
+[cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
