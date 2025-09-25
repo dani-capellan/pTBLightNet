@@ -118,7 +118,7 @@ In order to test one or more trained models on our data, we will need to:
 Please cite us if you are using this code!
 
 - Capellán-Martín, D., Gómez-Valverde, J. J., Sánchez-Jacob, R., et al. (2025). 
-  "Multi-View Deep Learning Framework for the Detection of Chest X-Rays Compatible with Pediatric Pulmonary Tuberculosis." Nature Communications.
+  "Multi-View Deep Learning Framework for the Detection of Chest X-Rays Compatible with Pediatric Pulmonary Tuberculosis." Nature Communications. https://doi.org/10.1038/s41467-025-64391-1
 
 - Capellán-Martín, D., Gómez-Valverde, J.J., Bermejo-Peláez, D. et al. 
   "A lightweight, rapid and efficient deep convolutional network for chest X-ray tuberculosis detection" 
@@ -130,4 +130,10 @@ If you have questions or suggestions, feel free to open an issue or PR at https:
 
 ## License
 
-This project is licensed under the **Apache 2.0 License**. You may freely use, modify, and distribute the code under the terms of the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details. Commercial use of this code must be reviewed by the original authors for potential compensation or additional credit. Commercial users are encouraged to contact the authors for licensing details. Please contact the authors to discuss commercial licensing.
+This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). You are free to share (copy and redistribute) the material in any medium or format for non-commercial purposes only, without modifications, and with appropriate attribution. You may not use the material for commercial purposes, and you may not distribute modified versions of this work.
+
+For more details, see the full license text in the [LICENSE](LICENSE) file or visit the [https://creativecommons.org/licenses/by-nc-nd/4.0/](Creative Commons website).
+
+If you are interested in using this work commercially or wish to request permission for a derivative work, please contact the authors to discuss potential licensing arrangements.
+
+© 2025 Biomedical Image Technologies - Universidad Politécnica de Madrid
