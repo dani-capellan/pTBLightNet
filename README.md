@@ -5,6 +5,7 @@ Official repository for pTBLightNet: Multi-View Deep Learning Framework for the 
 
 - [Introduction](#introduction)
 - [Installation](#installation)
+    - [Weights](#weights)
 - [Usage](#usage)
     - [Inference (MWE)](#inference-mwe)
     - [Use Custom Dataset](#use-custom-dataset)
@@ -29,6 +30,12 @@ We strongly recommend starting by creating a virtual environment using Miniconda
 ```bash
 pip install -r requirements.txt
 ```
+
+### Weights
+
+You can download the model weights from this link: https://huggingface.co/dani-capellan/pTBLightNet. 
+
+To use these weights, simply copy the `weights` directory into the main project folder of the corresponding code repository. The model will automatically locate the weights following the internal path structure.
 
 ## Usage
 
@@ -115,14 +122,14 @@ In order to test one or more trained models on our data, we will need to:
 
 ## How to cite
 
-Please cite us if you are using this code!
+If you use **pTBLightNet** in your research, please cite:
 
-- Capellán-Martín, D., Gómez-Valverde, J. J., Sánchez-Jacob, R., et al. (2025). 
-  "Multi-View Deep Learning Framework for the Detection of Chest X-Rays Compatible with Pediatric Pulmonary Tuberculosis." Nature Communications. https://doi.org/10.1038/s41467-025-64391-1
+- Capellán-Martín, D., Gómez-Valverde, J. J., Sánchez-Jacob, R., et al. (2025, October). 
+  Multi-view deep learning framework for the detection of chest X-rays compatible with pediatric pulmonary tuberculosis. In *Nature Communications*. https://doi.org/10.1038/s41467-025-64391-1
 
-- Capellán-Martín, D., Gómez-Valverde, J.J., Bermejo-Peláez, D. et al. 
-  "A lightweight, rapid and efficient deep convolutional network for chest X-ray tuberculosis detection" 
-  2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI 2023). https://doi.org/10.1109/ISBI53787.2023.10230500
+- Capellán-Martín, D., Gómez-Valverde, J. J., Bermejo-Peláez, D., & Ledesma-Carbayo, M. J. (2023, April). A lightweight, rapid and efficient deep convolutional network for chest x-ray tuberculosis detection. In *2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)* (pp. 1-5). IEEE. https://doi.org/10.1109/ISBI53787.2023.10230500
+
+- Capellán-Martín, D., Gómez-Valverde, J. J., Sanchez-Jacob, R., Bermejo-Peláez, D., García-Delgado, L., López-Varela, E., & Ledesma-Carbayo, M. J. (2023, April). Deep learning-based lung segmentation and automatic regional template in chest X-ray images for pediatric tuberculosis. In *Medical Imaging 2023: Computer-Aided Diagnosis* (Vol. 12465, pp. 451-459). SPIE. DOI: https://doi.org/10.1117/12.2652626
 
 ## How to contribute
 
