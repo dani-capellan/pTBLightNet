@@ -1,6 +1,8 @@
 # pTBLightNet
 Official repository for pTBLightNet: Multi-View Deep Learning Framework for the Detection of Chest X-Rays Compatible with Pediatric Pulmonary Tuberculosis
 
+[Paper](https://doi.org/10.1038/s41467-025-64391-1)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
