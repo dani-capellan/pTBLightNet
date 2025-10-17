@@ -16,6 +16,7 @@ Official repository for pTBLightNet: Multi-View Deep Learning Framework for the 
 - [How to cite](#how-to-cite)
 - [How to contribute](#how-to-contribute)
 - [License](#license)
+- [Contact](#contact)
 
 ## Introduction
 Tuberculosis (TB) remains a major global health burden, particularly in low-resource, high-prevalence regions. Pediatric TB presents unique challenges due to its non-specific symptoms and less distinct radiological manifestations compared to adult TB. Many children who die from TB are never diagnosed or treated, highlighting the need for early detection and treatment. The World Health Organization recommends chest X-ray (CXR) for TB screening and triage as part of diagnostic protocols due to its ability to rapidly assess pulmonary TB-related abnormalities and its widespread availability. In this study, we present pTBLightNet, a novel multi-view deep learning framework designed to detect pediatric pulmonary TB by identifying TB-compatible CXRs with consistent radiological findings. Our approach leverages both frontal and lateral CXR views to enhance prediction accuracy. We used diverse adult CXR datasets (N = 114,173) to pre-train our framework and CXR datasets (N = 918) from three pediatric TB cohorts for fine-tuning or training from scratch, and for evaluation. Our approach achieved an area under the curve of 0.903 on internal testing. External evaluation confirmed its effectiveness and generalizability using as CXR TB compatibility, expert reading, microbiological confirmation and case definition as reference standards. Age-specific models (<5 and 5-18 years old) performed competitively to those trained in larger undifferentiated populations, and incorporating lateral CXRs improved diagnosis in younger children compared to using only frontal CXR. Comparisons across different age groups demonstrated the robustness of the model, indicating its promise for improving TB diagnosis across ages, particularly in resource-limited settings.
@@ -136,6 +137,10 @@ If you use **pTBLightNet** in your research, please cite:
 ## How to contribute
 
 If you have questions or suggestions, feel free to open an issue or PR at https://github.com/dani-capellan/pTBLightNet.
+
+## Contact
+
+Corresponding authors: daniel.capellan@upm.es | juanjo.gomez@upm.es | mj.ledesma@upm.es
 
 ## License
 
