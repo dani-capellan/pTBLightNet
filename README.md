@@ -44,6 +44,8 @@ To use these weights, simply copy the `weights` directory into the main project 
 
 In this code, we provide a Minimal Working Example (MWE). The example data provided (3 internal and 1 external independent testing cases) is located in `data/`. There, you will find a `CSV` file with the dataset metadata and a `PKL` file with the images. 
 
+IMPORTANT: Ensure that all images are cropped to the lung region, as this is required for optimal model performance.
+
 The images are first converted into a `.pkl` file, then the code reads this file and processes the images. Although some example images are already converted in to a `.pkl` file in `data/mwe_data.pkl`, we also provide a script to convert custom data into this file. The command to run this process is as follows:
 
 ```bash
